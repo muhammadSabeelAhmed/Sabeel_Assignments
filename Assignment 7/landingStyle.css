@@ -1,0 +1,232 @@
+/* navigation Bar Styling */
+ul {
+  position: FIXED;
+  list-style-type: none;
+  margin: -15px -8px;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(66, 66, 66);
+}
+li {
+  display: inline-flex;
+  padding-right: 1.85%;
+  padding-left: 1.85%;
+  color: white;
+  text-decoration: none;
+}
+li a {
+  padding-top: 7px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:link {
+  color: white;
+}
+li a:hover {
+  color: rgb(161, 161, 161);
+}
+li a:active {
+  color: rgb(104, 104, 104);
+}
+
+.shopEarly {
+  background-color: rgba(226, 226, 226, 0.322);
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: rgb(66, 66, 66);
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+p a:link {
+  color: rgb(0, 171, 250);
+}
+.accessibility {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-size: 55px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.gifts {
+  margin-top: 70px;
+  padding-top: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-size: 55px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.twelvePro {
+  background-color: black;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  border: thin solid white;
+  font-size: 55px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.twelvePro:hover {
+  border: thin solid red;
+}
+
+.iphone12 {
+  height: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: inline;
+  float: left;
+  border: thin solid white;
+  width: 48%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.iphone12:hover {
+  border: thin solid rgb(201, 201, 201);
+}
+.christims {
+  margin-right: 10px;
+  height: 100%;
+  border: thin solid white;
+  margin-top: 20px;
+  display: inline;
+  float: right;
+  width: 48%;
+}
+.christims:hover {
+  background-color: rgb(136, 0, 0);
+  border: thin solid black;
+}
+
+.appStore {
+  padding-top: 20px;
+  color: white;
+  display: inline;
+  float: left;
+  border: thin solid #1b2c64;
+  width: 48%;
+  height: 550px;
+  background: #1b2c64;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(./images/app_store.png);
+  background-position: center;
+}
+.appStore:hover {
+  border: thin solid rgb(201, 201, 201);
+}
+
+.fitness {
+  height: 100%;
+  padding-top: 20px;
+  color: white;
+  border: thin solid white;
+  display: inline;
+  float: right;
+  width: 48%;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.fitness:hover {
+  border: thin solid rgb(201, 201, 201);
+}
+
+.appleCard {
+  padding-top: 20px;
+  color: white;
+  display: inline;
+  float: left;
+  border: thin solid white;
+  width: 48%;
+  height: 550px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.appleCard:hover {
+  border: thin solid rgb(201, 201, 201);
+}
+
+.oneApp {
+  padding-top: 20px;
+  display: inline;
+  float: right;
+  border: thin solid white;
+  width: 48%;
+  height: 550px;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.oneApp:hover {
+  border: thin solid rgb(201, 201, 201);
+}
+.footer {
+  height: 50px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#footer {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(226, 226, 226, 0.322);
+  margin-top: 740px;
+}
+
+.newPage:link {
+  font-size: 18px;
+  color: rgb(0, 102, 255);
+}
+.newPage:visited {
+  font-size: 18px;
+  color: rgb(0, 102, 255);
+}
+
+.nextImage {
+  height: 10px;
+  vertical-align: baseline;
+  margin-left: 05px;
+}
