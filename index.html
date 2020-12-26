@@ -2,58 +2,313 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
-    <title>Sabeel Assignments</title>
+    <title>OLX - Buy and Sell for free anywhere in Pakistan with OLX</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./landingstyle.css">
+    <script src="coding.js"></script>
+    <link rel="icon" href="./images/olx_icon.png">
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <a href="./Assignment 7/index.html">
-                        <img class="image" height="70%" width="100%" src="./images/assignment_landing.png" />
-                        <p class="heading">Assignment 7</p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-6 ">
-                <div class="card">
-                    <a href="./Assignment 08/index.html">
-                        <img class="image" height="70%" width="100%" src="./images/landing_page.png" />
-                        <p class="heading">Assignment 8</p>
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div class="nav">
+        <ul class="navList">
+            <li class="logo">
+                <img src="./images/olx_logo.png">
+            </li>
+            <li class="searchLoc">
+                <img src="./images/search.png" alt="" height="100%" ; width="100%">
+                <input type="search" placeholder="Search city, area or local">
+            </li>
+            <li class="searchItems">
+                <input type="search" placeholder="Find Cars, Mobile Phones and more...">
+                <img src="./images/search_white.png" alt="">
+            </li>
+            <li class="chat">
+                <button><img src="./images/chat.png" height="100%" ; width="100%"></button>
+            </li>
+            <li class="notification">
+                <button><img src="./images/notification.png" height="100%" ; width="100%"></button>
+            </li>
+            <li class="btn_sell">
+                <button><img src="./images/sell_btn.JPG" height="100%" ; width="100%"></button>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul class="categoryList">
+            <li><select>
+                    <option value="">All Categories</option>
+                </select></li>
+            <li><a href="#MobilePhone">Mobile Phones</a> </li>
+            <li><a href="#Cars">Cars</a> </li>
+            <li><a href="#Motorcycles">Motorcycles</a> </li>
+            <li><a href="#Houses">Houses</a> </li>
+            <li><a href="#TV-VideoAudio">TV-Video-Audio</a> </li>
+            <li><a href="#Tablets">Tablets</a> </li>
+            <li><a href="#lands&Plots">Land & Plots</a> </li>
+        </ul>
+    </div>
+    <section class="banner_image"></section>
+    <section class="ad_image">
+        <img src="./images/ad.png" alt="" height="100%" width="100%">
+        <span class="closeinfo"><i class="fas fa-info-circle"></i><i class="fas fa-times-circle"></i>
+        </span>
+    </section>
 
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <a href="./Facebook/index.html">
-                        <img class="image" height="70%" width="100%" src="./images/fb_landing.JPG" />
-                        <p class="heading">Facebook Landing Page</p>
-                    </a>
+    <div class="content">
+        <h1>Fresh Recommendations
+        </h1>
+        <div class="products">
+            <ul class="productList">
+                <li>
+                    <div>
+                        <i class="far fa-heart"></i>
+                        <span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/item1.webp" alt="">
+                        <span class="price">Rs 95,000</span>
+                        <p class="details">Prius Alpha Ct200h Aqua Axio Fielder Camry Crown Rx450h Hybrid
+                            Battery</p>
+                        <span class="location">Karimabad, Karachi</span>
+                        <span class="date">TODAY</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/item2.webp" alt="">
+                        <span class="price">Rs 718,000</span>
+                        <span class="year">2006 - 63,000 km</span><br>
+                        <p class="details">Hyundai Sentro good condition</p>
+                        <span class="location">Kot Abdul Malik, Lahore</span>
+                        <span class="date">TODAY</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item3.webp" alt="">
+                        <span class="price">Rs 45,000</span>
+                        <p class="details">Dell laptop corei& 3rd generation</p>
+                        <span class="location">F-11, Islamabad</span>
+                        <span class="date">TODAY</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/item4.webp" alt="">
+                        <span class="price">Rs 3,000</span>
+                        <p class="details">Chiller, Split, Central Split, fridge, Deep Freezer</p>
+                        <span class="location">Korangi Industrial Area, Karachi</span>
+                        <span class="date">Yesterday</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item5.webp" alt="">
+                        <span class="price">Rs 9,000</span>
+                        <p class="details">oxygen Cylinder for home use, Small for business</p>
+                        <span class="location">Gulshan-e-iqbal block 1, karachi</span>
+                        <span class="date">Dec 20</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item0.webp" alt="">
+                        <span class="price">Rs 3,500</span>
+                        <p class="details">IKEA 4 TIER SHELF UNIT WHITE AVAILABLE</p>
+                        <span class="location">Shadman Town, Karachi</span>
+                        <span class="date">Today</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i><span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/item6.webp" alt="">
+                        <span class="price">Rs 3,800,000</span>
+                        <span class="year">2018 - 32,000 km</span><br>
+                        <p class="details">Honda Civic UG 2018</p>
+                        <span class="location">bahria Town Islamabad</span>
+                        <span class="date">Yesterday</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item7.webp" alt="">
+                        <span class="price">Rs 13,000</span>
+                        <p class="details">Luxuary Boys hostel for job holders</p>
+                        <span class="location">F-11, Islamabad</span>
+                        <span class="date">OCT 04</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i><span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/item8.webp" alt="">
+                        <span class="price">Rs 21,000</span>
+                        <p class="details">Oppo F7 woth box & charger</p>
+                        <span class="location">Wah, Punjab</span>
+                        <span class="date">Today</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item9.webp" alt="">
+                        <span class="price">Rs 13,000</span>
+                        <p class="details">Samsung c& 4GB Ram 64 GB Rom</p>
+                        <span class="location">Karachi, pakistan</span>
+                        <span class="date">TODAY</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item10.webp" alt="">
+                        <span class="price">Rs 125,000</span>
+                        <p class="details">Container Cafe Structure</p>
+                        <span class="location">G-10, Islamabad</span>
+                        <span class="date">NOV 14</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i><span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/item11.webp" alt="">
+                        <span class="price">Rs 600,000</span>
+                        <p class="details">Mineral Water Plan 1 Ton</p>
+                        <span class="location">Lahore, Pakistan</span>
+                        <span class="date">NOV 23</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item12.webp" alt="">
+                        <span class="price">Rs 82,000</span>
+                        <p class="details">Honda Bike 125</p>
+                        <span class="location">Gulistan-e-jauhar, Karachi</span>
+                        <span class="date">Dec 23</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i> <span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/item13.webp" alt="">
+                        <span class="price">Rs 675,000</span>
+                        <p class="details">Uk perkins Original 15KVA to 1500KVA</p>
+                        <span class="location">Gulberg II, Lahore</span>
+                        <span class="date">Yesterday</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i>
+                        <img src="./images/items/item14.webp" alt="">
+                        <span class="price">Rs 17,999</span>
+                        <p class="details">ONE PLUS 3T FRESH STOCK ARRIVED</p>
+                        <span class="location">Karachi, Pakistan</span>
+                        <span class="date">TODAY</span>
+                    </div>
+                </li>
+                <li>
+                    <div> <i class="far fa-heart"></i><span class="featured">FEATURED</span>
+                        <span class="sidebar"></span>
+                        <img src="./images/items/ietm15.webp" alt="">
+                        <span class="price">Rs 17,999</span>
+                        <p class="details">Resedential Plot 45x80 non Corner Villas</p>
+                        <span class="location">F-10, Islamabad</span>
+                        <span class="date">Dec 20</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="btn_loadmore">
+            <button>Load more</button>
+        </div>
+    </div>
+    <div class="getApp">
+        <ul class="rightdiv">
+            <li class="try_olx">Try the olx app
+                <p class="buy_sell">Buy, sell and find just about anything using the app on your mobile.</p>
+            </li>
+            <li class="getToday">
+                <div>
+                    <div>Get your app today</div>
+                    <div style="margin-top: 20px;"><img src="./images/ios.webp" class="download" alt="">
+                        <img src="./images/android.webp" class="download" alt=""></div>
                 </div>
+            </li>
+        </ul>
+    </div>
+    <div class="main-footer">
+        <div class="firstFooter">
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="#">POPULAR CATEGORIES</a>
+                    </li>
+                    <li>Cars</li>
+                    <li>flats for rent</li>
+                    <li>Jobs</li>
+                    <li>Mobile phones</li>
+                </ul>
             </div>
-            <div class="col-sm-6 ">
-                <div class="card">
-                    <a href="./Pokemon/index.html">
-                        <img class="image" src="./images/pokemon_landing.png" width="100%" height="70%"/>
-                        <p class="heading">Pokemon Landing Page</p>
-                    </a>
-                </div>
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="#">TRENDING SEARCHES</a>
+                    </li>
+                    <li>Bikes</li>
+                    <li>Watches</li>
+                    <li>Books</li>
+                    <li>Dogs</li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="#">POPULAR CATEGORIES</a>
+                    </li>
+                    <li>Cars</li>
+                    <li>flats for rent</li>
+                    <li>Jobs</li>
+                    <li>Mobile phones</li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="#">TRENDING SEARCHES</a>
+                    </li>
+                    <li>Bikes</li>
+                    <li>Watches</li>
+                    <li>Books</li>
+                    <li>Dogs</li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="#">Follow Us</a>
+                    </li>
+                </ul>
+                <a href="#"> <img src="./images/fb.png" alt="" class="follow"></a>
+                <a href="#"> <img src="./images/instagram.png" alt="" class="follow"></a>
+                <a href="#"> <img src="./images/twitter.png" alt="" class="follow"></a>
+                <a href="#"> <img src="./images/youtube.jpg" alt="" class="follow"></a>
+                <a href="#"> <img class="follow" src="./images/ios.webp" alt="img logo" width="100px"></a>
+                <a href="#"> <img class="follow" src="./images/android.webp" alt="img logo" width="100px"></a>
+
             </div>
         </div>
     </div>
-
-
+    <div class="footer-end">
+        <span>Other Countries India - South Africa - Indonesia</span>
+        <span style="float: right;">Free Classifieds in Pakistan. © 2006-2020 OLX</span>
+    </div>
 </body>
 
 </html>
