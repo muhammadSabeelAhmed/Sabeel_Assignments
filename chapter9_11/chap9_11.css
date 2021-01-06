@@ -1,0 +1,48 @@
+body {
+  background-color: #e9ebee;
+}
+.parent {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  line-height: 25px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 65px;
+  min-width: 150px;
+  max-width: 150px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  background-color: #e9ebee;
+}
+th{
+  width: 30%;
+  border-top: 1px solid  rgba(30, 110, 238, 0.753);
+  border-bottom: 1px solid  rgba(30, 110, 238, 0.753);
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(30, 110, 238, 0.753);
+  font-family: 'Times New Roman', Times, serif;
+}
+tr{
+  text-align: center;
+  background-color:  rgba(195, 214, 243, 0.589);
+  font-size: 20px;
+  color: rgba(30, 110, 238, 0.753);
+  font-family: 'Times New Roman', Times, serif;
+}
