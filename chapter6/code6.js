@@ -89,19 +89,40 @@ function question6() {
   var sub2 = prompt("Please enter 1st Subject Name", "English");
   var sub3 = prompt("Please enter 1st Subject Name", "Math");
   if (sub1 != "" && sub2 != "" && sub3 != "") {
-    var sub1 = parseInt(
-      prompt("Please enter  Marks Obtained in " + sub1, "Urdu")
-    );
-    var sub2 = parseInt(
-      prompt("Please enter Marks Obtained in " + sub2, "English")
-    );
-    var sub3 = parseInt(
-      prompt("Please enter Marks Obtained in " + sub3, "Math")
-    );
+    var marks1 = parseInt(prompt("Please enter Marks Obtained in " + sub1, 80));
+    var marks2 = parseInt(prompt("Please enter Marks Obtained in " + sub2, 95));
+    var marks3 = parseInt(prompt("Please enter Marks Obtained in " + sub3, 85));
 
-    if (sub1 != "" && sub2 != "" && sub3 != "") {
-document.write("")
+    if (marks1 != "" && marks2 != "" && marks3 != "") {
+      var percent1 = (marks1 * 100) / 100;
+      var percent2 = (marks2 * 100) / 100;
+      var percent3 = (marks3 * 100) / 100;
 
+      document.write(
+        " <table>  <tr>    <th>Subject</th>   <th>Total Marks</th>         <th>Obtained Marks</th>      <th>Percentage</th>   </tr>   <tr>       <td>" +
+          sub1 +
+          "</td>       <td>100</td>       <td>" +
+          marks1 +
+          "</td>    <td>" +
+          percent1 +
+          "%</td>  </tr> <tr>     <td>" +
+          sub2 +
+          "</td>     <td>100</td>      <td>" +
+          marks2 +
+          "</td>      <td>" +
+          percent2 +
+          "%</td>    </tr>    <tr>    <td>" +
+          sub3 +
+          "</td>    <td>100</td>  <td>" +
+          marks3 +
+          "</td>       <td>" +
+          percent3 +
+          "%</td>    </tr> <tr><td></td> <td><b>300</b></td> <td><b>" +
+          (marks1 + marks2 + marks3) +
+          "<b/></td> <td><b>" +
+          (percent1 + percent1 + percent1) / 3 +
+          "%</b></td> </tr></table>"
+      );
     } else {
       alert("Need to enter all subject Marks");
     }
